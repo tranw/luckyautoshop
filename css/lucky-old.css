@@ -1,0 +1,137 @@
+body {
+  font-family: 'Share Tech';
+  padding-top: 72px; }
+
+/*NAVIGATION BAR*/
+.navbar {
+  min-height: 72px;
+  border: none; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff !important;
+  font-size: 22px !important;
+  padding: 0px 15px !important;
+  line-height: 108px; }
+.navbar-default .navbar-nav > li.active > a {
+  color: #91BB8C !important; }
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #91BB8C; }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white; }
+.navbar-default .navbar-nav > .open a, .navbar-default .navbar-nav > .open a:focus, .navbar-default .navbar-nav > .open a:hover {
+  background-color: #91BB8C; }
+
+.dropdown-menu {
+  background-color: #7D807E;
+  padding: 20px;
+  border: 1px solid #737373; }
+
+.navbar-toggle {
+  margin-top: 22px; }
+
+/*SECTIONS for hash links--see @media below*/
+section {
+  padding-top: 108px;
+  margin-top: -108px; }
+
+/*SERVICE FEATURE BOXES*/
+.servicebox {
+  max-width: 400px;
+  margin: 0px auto;
+  background-color: #e8e8e8;
+  height: 300px;
+  padding: 15px 8px;
+  background-position: right bottom;
+  background-repeat: no-repeat; }
+  .servicebox a:hover {
+    text-decoration: none; }
+  .servicebox ul li {
+    text-shadow: 0px 0px 8px #e8e8e8; }
+
+.servicetitle {
+  font-size: 30px;
+  font-weight: bold; }
+
+.alert-success {
+  border-color: #fff !important;
+  background-color: #c45151 !important;
+  color: #fff !important; }
+
+@media only screen and (max-width: 375px) {
+  .servicebox {
+    background-size: 78%; }
+
+  .servicetitle {
+    font-size: 25px; } }
+#directionbr {
+  display: none; }
+
+/*directions link on index*/
+@media only screen and (max-width: 472px) {
+  .bigquotes {
+    display: none; }
+
+  .smbigquotes {
+    display: inline; }
+
+  #directionbr {
+    display: inline; }
+
+  a.directions {
+    padding: 3px 3px 3px 3px !important;
+    margin-top: 4px; } }
+/* Extra small */
+@media only screen and (max-width: 480px) {
+  #aselogo {
+    float: none;
+    display: block;
+    margin: 0px auto 15px auto; }
+
+  .sbcol {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  /*service box columns*/
+  section {
+    padding-top: 75px;
+    margin-top: -75px; } }
+/*TESTIMONIALS*/
+.bigquotes {
+  font-size: 5em;
+  float: left;
+  margin: 10px;
+  color: #ccc;
+  line-height: 1.1em; }
+
+.smbigquotes {
+  display: none; }
+
+.citename {
+  font-size: 80%;
+  line-height: 1.5;
+  color: #777;
+  margin-left: 30px;
+  text-align: center; }
+
+.citevia {
+  font-style: italic; }
+
+#darksocial td img {
+  display: inline-block; }
+#darksocial td:hover {
+  background-color: #974141; }
+
+#lightsocial td img {
+  display: inline-block; }
+
+/*FOOTER*/
+#ftrlogo {
+  max-width: 225px;
+  float: right; }
+
+@media only screen and (max-width: 419px) {
+  #ftrcontact {
+    display: none; }
+
+  #ftrlogo {
+    max-width: 150px; } }
